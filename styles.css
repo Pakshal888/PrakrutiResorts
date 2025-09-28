@@ -218,6 +218,11 @@ nav {
   border-radius: 5px;
 }
 
+.input__group input[type="date"] {
+  /* This helps style date inputs uniformly across browsers */
+  color-scheme: dark; 
+}
+
 .input__group input::placeholder {
   color: var(--text-light);
 }
